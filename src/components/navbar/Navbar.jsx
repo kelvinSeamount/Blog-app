@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import AuthLink from "../authlink/AuthLink";
+import DarkThemeToggle from "../darktheme/DarkThemeToggle";
 
 export default function Navbar() {
   return (
@@ -18,11 +20,12 @@ export default function Navbar() {
       </div>
       <div className={styles.logo}>Meka-blog</div>
       <div className={styles.links}>
+        <DarkThemeToggle />
         <Link href="/">Homepage</Link>
         <Link href="/">Contact</Link>
         <Link href="/">About</Link>
+        <AuthLink />
       </div>
-      Navbar
     </div>
   );
 }

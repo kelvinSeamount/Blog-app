@@ -1,2 +1,27 @@
 .container {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  gap: 0.7rem;
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  gap: 0.7rem;
+  flex: 1;
+  font-size: 1.25rem;
+}
+
+.logo {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.25rem;
 }
