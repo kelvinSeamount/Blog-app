@@ -5,6 +5,13 @@
   --secondarytextcolor: #626262;
 }
 
+.dark {
+  --primarybg: #0f172a;
+  --textcolor: #ddd;
+  --whitevariationBg: #1f273a;
+  --secondarytextcolor: #a6a6a6;
+}
+
 /*=================General Resetting===================*/
 * {
   padding: 0;
@@ -33,7 +40,6 @@ a {
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
-  background-color: greenyellow;
   padding-left: 80px;
   padding-right: 80px;
 }
